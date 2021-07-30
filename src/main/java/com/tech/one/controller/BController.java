@@ -23,11 +23,7 @@ public class BController {
 //	}
 	@Autowired
 	private SqlSession sqlSession;
-<<<<<<< HEAD
-//	
-=======
-	
->>>>>>> listbrh2
+
 	
 	@RequestMapping("/list")
 	public String list(HttpServletRequest request,
