@@ -18,8 +18,8 @@ public class BController {
 //		this.template = template;
 //		Constant.template=this.template;
 //	}
-//	@Autowired
-//	private SqlSession sqlSession;
+	@Autowired
+	private SqlSession sqlSession;
 //	
 	
 	@RequestMapping("/list")
